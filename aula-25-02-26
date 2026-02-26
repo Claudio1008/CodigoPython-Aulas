@@ -1,0 +1,20 @@
+nota = int(input("DIGITE SUA NOTA DE 0 A 10 , QUANTO VC GOSTOU DO SUCO"))
+if nota < 5:
+  print("nao gotei")
+elif nota >=5 and nota <= 7:
+  print("esta bom mas da pra melhorar")
+elif nota > 7 and nota <= 9:
+  print("muito bom")
+else :
+  print("suco exelente")
+
+TempoCorrida = float(input("DIGITE O TEMPO DA CORRIDA: "))
+
+if TempoCorrida <= 10:
+  print("A CORRIDA FICOU 10 REAIS")
+elif TempoCorrida > 10 and TempoCorrida <=20:
+  valorCorrida = 1.20 * TempoCorrida
+  print(f"SUA CORRIDA FICOU {valorCorrida:.2f} REAIS")
+else:
+  valorCorrida = 1.00 * TempoCorrida
+  print(f"SUA CORRIDA FICOU {valorCorrida:.2f} REAIS")
